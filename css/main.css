@@ -77,3 +77,7 @@ tr {
     font-weight: bold;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif'
 }
+
+tr a:hover {
+    color: blue;
+}
