@@ -53,5 +53,11 @@ ul.posts li {
 .resume_name {
     text-align: center;
     font-variant: small-caps;
+    font-size: 2em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+.resume_address {
+    text-align: center;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
