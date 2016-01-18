@@ -68,3 +68,12 @@ ul.posts li {
     font-variant: small-caps;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+.resume {
+    width: 75%;
+}
+
+tr {
+    font-weight: bold;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif'
+}
