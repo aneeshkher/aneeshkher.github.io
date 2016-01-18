@@ -78,6 +78,6 @@ tr {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif'
 }
 
-tr a:hover {
+tr td a:hover {
     color: blue;
 }
