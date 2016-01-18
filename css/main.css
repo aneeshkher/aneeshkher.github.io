@@ -75,9 +75,15 @@ ul.posts li {
 
 tr {
     font-weight: bold;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif'
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    text-decoration: none;
 }
 
-tr td a:hover {
+td a {
+    color: #000;
+    text-decoration: none;
+}
+
+td a:hover {
     color: blue;
 }
