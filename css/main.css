@@ -67,10 +67,17 @@ ul.posts li {
     text-align: left;
     font-variant: small-caps;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .resume {
     width: 75%;
+}
+
+.resume_text {
+    text-align: center;
+    font-family: 'Verdana', 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 tr {
