@@ -28,13 +28,15 @@ ul a:hover {
     color: white
 }
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.3em;
+    line-height: 1.2em;
     color: #333;
+	text-align: justify;
+	text-justify: inter-word;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -54,13 +56,15 @@ ul.posts li {
     text-align: center;
     font-variant: small-caps;
     font-size: 2.5em;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    /* font-family: 'Helvetica', 'Arial', 'Sans-Serif'; */
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
     font-weight: bold;
 }
 
 .resume_address {
     text-align: center;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 0.9em;
 }
 
 .resume_section {
@@ -72,12 +76,13 @@ ul.posts li {
 }
 
 .resume {
-    width: 75%;
+    width: 82%;
 }
 
 .resume_text {
     text-align: left;
     font-family: 'Verdana', 'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 0.9em;
 }
 
 tr {
@@ -87,6 +92,15 @@ tr {
     color: black;
 }
 
+p a {
+	color: blue;
+	text-decoration: none;
+}
+
+p a:hover {
+	color: #888;
+}
+
 td a {
     color: #000;
     text-decoration: none;
@@ -94,4 +108,16 @@ td a {
 
 td a:hover {
     color: blue;
+}
+
+#skills_list ul li {
+	padding;
+}
+
+ul li.skill_out {
+	padding: 3px;
+}
+
+ul li ul li.skills {
+	padding: 3px;
 }
