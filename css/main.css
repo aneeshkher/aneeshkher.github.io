@@ -29,7 +29,8 @@ ul a:hover {
 }
 h1 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+	font-family: 'Alegreya Sans', sans-serif;
 }
 p {
     font-size: 1.3em;
@@ -37,6 +38,7 @@ p {
     color: #333;
 	text-align: justify;
 	text-justify: inter-word;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 footer {
     border-top: 1px solid #d5d5d5;
