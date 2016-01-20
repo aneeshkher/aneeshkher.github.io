@@ -73,6 +73,7 @@ ul.posts li {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     font-weight: bold;
+	color: #333;
 }
 
 .resume {
@@ -81,8 +82,10 @@ ul.posts li {
 
 .resume_text {
     text-align: left;
-    font-family: 'Verdana', 'Helvetica', 'Arial', 'Sans-Serif';
+    /*font-family: 'Verdana', 'Helvetica', 'Arial', 'Sans-Serif';*/
+	font-family: 'Merriweather', Georgia, Times;
 	font-size: 0.9em;
+	color: #222;
 }
 
 tr {
@@ -102,16 +105,12 @@ p a:hover {
 }
 
 td a {
-    color: #000;
+    color: #333;
     text-decoration: none;
 }
 
 td a:hover {
     color: blue;
-}
-
-#skills_list ul li {
-	padding;
 }
 
 ul li.skill_out {
