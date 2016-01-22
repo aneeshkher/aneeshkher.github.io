@@ -58,7 +58,8 @@ p {
     color: #333;
 	text-align: justify;
 	text-justify: inter-word;
-	font-family: 'Open Sans Condensed', sans-serif;
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -72,6 +73,7 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+    font-family: 'PT Sans', sans-serif;
 }
 
 ul.posts li a {
@@ -101,7 +103,8 @@ ul.posts li a:hover {
 .resume_section {
     text-align: left;
     font-variant: small-caps;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    /*font-family: 'Helvetica', 'Arial', 'Sans-Serif';*/
+    font-family: 'PT Sans', sans-serif;
     font-size: 1.5em;
     font-weight: bold;
 	color: #333;
@@ -113,7 +116,7 @@ ul.posts li a:hover {
 
 .resume_text {
     text-align: left;
-    /*font-family: 'Verdana', 'Helvetica', 'Arial', 'Sans-Serif';*/
+    line-height: 1.2em;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 0.9em;
 	color: #222;
@@ -121,7 +124,8 @@ ul.posts li a:hover {
 
 tr {
     font-weight: bold;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'Helvetica', 'Arial', 'Sans-Serif';*/
     text-decoration: none;
     color: black;
 }
