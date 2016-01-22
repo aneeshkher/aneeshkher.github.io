@@ -16,7 +16,11 @@ nav ul li, footer ul li {
 nav ul li a {
     display: inline-block;
     color: #000;
-    padding: 10px 10px 10px 10px;
+    /*padding: 10px 10px 10px 10px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
 }
 
@@ -38,18 +42,9 @@ footer ul li a:hover {
     text-decoration: none;
     color: white
 }
-/*a {
-    text-decoration: none;
-    color: #111;
-}*/
-/*ul a:hover {
-    background-color: #555;
-    text-decoration: none;
-    color: white
-}*/
+
 h1 {
     font-size: 2em;
-    /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
 	font-family: 'Alegreya Sans', sans-serif;
 }
 p {
@@ -58,9 +53,27 @@ p {
     color: #333;
 	text-align: justify;
 	text-justify: inter-word;
-	/*font-family: 'Open Sans Condensed', sans-serif;*/
     font-family: 'Raleway', sans-serif;
 }
+
+.para_text {
+    font-size: 1.2em;
+    line-height: 1.3em;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Raleway', sans-serif;
+}
+
+.para_text1 {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Raleway', sans-serif;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -155,12 +168,3 @@ ul li.skill_out {
 ul li ul li.skills {
 	padding: 3px;
 }
-
-/*ul.posts li.blog_post a {
-    color: #333;
-    text-decoration: none;
-}
-
-ul.posts li.blog_post a:hover {
-    color: blue;
-}*/
