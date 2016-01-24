@@ -133,6 +133,8 @@ ul.posts li a:hover {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 0.9em;
 	color: #222;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 tr {
@@ -163,6 +165,15 @@ td a:hover {
 
 ul li.skill_out {
 	padding: 3px;
+}
+
+ul li.skill_out a {
+    color: blue;
+    text-decoration: none;
+}
+
+ul li.skill_out a:hover {
+    color: #888;
 }
 
 ul li ul li.skills {

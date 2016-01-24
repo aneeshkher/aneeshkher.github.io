@@ -113,12 +113,31 @@ title: "Aneesh's Resume"
 
 	<div class="resume_text">
 		<ul>
-			<li class="skill_out"><b>RAM File System</b></li>
-			The FUSE library is a user space file system library, which allows a user to write his own user space file system by abstracting the system calls and 
-			giving the user control over how he wants to implement them.
-			Developed an <i>in memory</i> file system in C using the <a href="https://github.com/libfuse/libfuse">FUSE Library</a>. Designed the tree structure for the file system 
-			and wrote user level implementations for various system calls like read, write, open, close etc. Tested the file system using 
-			<a href="http://www.engr.uconn.edu/~vkk06001/FEARLESS/benchmark/postmark-1.51/postmark-1.51.c">Postmark</a>.
+			<li class="skill_out"><b>RAM File System</b><br>
+				The FUSE library is a user space file system library, which allows a user to write his own user space file system by 
+				abstracting the system calls and giving the user control over how he wants to implement them. Developed an 
+				<i>in memory</i> file system in C using the <a href="https://github.com/libfuse/libfuse">FUSE Library</a>. Designed 
+				the tree structure for the file system and wrote user level implementations for various system calls like read, write, 
+				open, close etc. Tested the file system using 
+				<a href="http://www.engr.uconn.edu/~vkk06001/FEARLESS/benchmark/postmark-1.51/postmark-1.51.c">Postmark</a>.
+			</li>
+
+			<li class="skill_out"><b>DevOps Pipeline</b> (Team of three)<br>
+				Developed and end to end software delivery pipeline which included the three prime stages of a software project - 
+				Build, Test, and Deployment. We configured <a href="https://jenkins-ci.org/">Jenkins</a>, Git for the build process. 
+				For the test part, we used <a href="https://mochajs.org/">Mocha</a> for unit tests, and developed a tool in JavaScript 
+				which used <a href="https://gotwarlost.github.io/istanbul/"></a> to improve code coverage to 100%. For deployment, 
+				we developed a tool in JavaScript to automatically provision <a href="https://aws.amazon.com/ec2/">AWS EC2</a> 
+				machines and configure them using <a href="http://www.ansible.com/">Ansible</a>. We demonstrated a canary build 
+				using <a href="http://redis.io/">Redis</a> and http-proxy, and implemented a 'doctor monkey' and 'maintenance monkey' 
+				as a method for system health improvement.
+			</li>
+
+			<li class="skill_out"><b>University housing application</b> (Team of four)<br>
+				Developed a database application using Oracle10g and Java to allow students to register for housing and parking options, on and off 
+				campus. Used JDBC to define connectivity between the application and the database. Wrote stored procedures for dynamic generation of 
+				invoices for each registered student or guest, and for roommate matching functionality.
+			</li>
 		</ul>
 	</div>
 </div>
