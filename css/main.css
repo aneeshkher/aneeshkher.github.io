@@ -57,7 +57,7 @@ p {
 }
 
 .para_text {
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 1.3em;
     color: #333;
     text-align: justify;
@@ -66,8 +66,48 @@ p {
 }
 
 .para_text1 {
-    font-size: 1.3em;
+    font-size: 1.4em;
     line-height: 1.5em;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Raleway', sans-serif;
+}
+
+.work_ex_title {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Raleway', sans-serif;
+}
+
+.work_ex_text {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Raleway', sans-serif;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.project_para_text {
+    font-size: 0.9em;
+    line-height: 1.1em;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Raleway', sans-serif;
+}
+
+.project_heading {
+    font-size: 0.8em;
+    line-height: 1.3em;
     color: #333;
     text-align: justify;
     text-justify: inter-word;
