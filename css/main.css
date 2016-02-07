@@ -43,6 +43,11 @@ footer ul li a:hover {
     color: white
 }
 
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
 h1 {
     font-size: 2em;
 	font-family: 'Alegreya Sans', sans-serif;
@@ -112,11 +117,6 @@ p {
     text-align: justify;
     text-justify: inter-word;
     font-family: 'Raleway', sans-serif;
-}
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
 
 ul.posts { 

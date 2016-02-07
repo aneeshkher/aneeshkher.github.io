@@ -1,0 +1,148 @@
+body {
+	margin: 50px auto;
+	width: 80%;
+}
+
+nav ul, footer ul {
+    /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    background-color: #f1f1f1
+}
+nav ul li, footer ul li {
+    display: inline;
+}
+nav ul li a {
+    display: inline-block;
+    color: #000;
+    /*padding: 10px 10px 10px 10px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+footer ul li a {
+    display: inline-block;
+    color: #000;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    text-decoration: none;
+    color: white
+}
+
+footer ul li a:hover {
+    background-color: #555;
+    text-decoration: none;
+    color: white
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+a.res {
+	color: blue;
+	text-decoration: none;
+}
+
+a.res:hover {
+	color: #888;
+}
+
+a.to_blue {
+	color: #333;
+	text-decoration: none;
+}
+
+a.to_blue:hover {
+	color: blue;
+}
+
+.skills {
+	padding: 3px;
+}
+
+.para_gen {
+	font-size: 1.2em;
+    line-height: 1.2em;
+    color: #333;
+	text-align: justify;
+	text-justify: inter-word;
+    font-family: 'Raleway', sans-serif;
+}
+
+.resume {
+	width: 82%;
+}
+
+.resume_name {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 2.5em;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+    font-weight: bold;
+}
+
+.resume_address {
+    text-align: center;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 0.9em;
+}
+
+.resume_section {
+    text-align: left;
+    font-variant: small-caps;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+	color: #333;
+}
+
+.resume_text {
+    text-align: left;
+    line-height: 1.2em;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 0.9em;
+	color: #222;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.res_tr {
+	font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    font-size: 2em;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.work_ex_title {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Raleway', sans-serif;
+}
+
+.work_ex_text {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Raleway', sans-serif;
+}
