@@ -3,70 +3,129 @@ layout: default
 title: "Aneesh's projects"
 ---
 
-<p class="para_gen" style="font-size: 1.5em"><b>A list of all my significant academic projects and assignments</b> (to be updated soon)</p>
+<p class="para_gen" style="font-size: 1.5em"><b>A list of all my significant academic projects and assignments</b> (to be completed soon)</p>
 
 <p>
 	<ul class="para_gen">
 		<li><b>Systems</b>
-			<ul style="font-size: 0.8em; line-height: 1.3em">
-				<li style="margin-bottom: 10px">
-					<b>Non preemptive threading library</b> <i>(C Programming)</i><br>
-					<div class="project_para_text">
-						Developed a non preemptive threading library using context based system calls <code>(setcontext, makecontext, swapcontext,
-						getcontext)</code> which supported create, yield, join, and exit thread routines. Supported semaphore routines - init, signal, 
-						wait, destroy.
+			<ul style="font-size: 0.8em; line-height: 1.3em;">
+				<li style="margin-bottom: 17px;">
+					<b>RAM File System</b> <i>(C Programming, FUSE)</i>
+					<div style="margin-bottom: 17px;">
+						Developed an <i>in-memory</i> file system using the <a class="res" href="https://github.com/libfuse/libfuse">FUSE library</a>. The FUSE 
+						library captures all the system calls, and returns them to the user space. I wrote implementations for the basic system calls like 
+						read, write, open, close, etc.
 					</div>
 				</li>
-				<li style="margin-bottom: 10px">Linux Micro shell <i>(C Programming)</i></li>
-				<li style="margin-bottom: 10px">Hot porato game simulation <i>(C Programming)</i></li>
-				<li style="margin-bottom: 10px">RAM File System <i>(C Programming, FUSE)</i></li>
+				<li style="margin-bottom: 17px;">
+					<b>Non preemptive threading library</b> <i>(C Programming)</i><br>
+					<div style="line-height: 1.0em;">
+						Developed a non preemptive threading library using context based system calls <code><font size="4">(setcontext, makecontext, 
+						swapcontext, getcontext)</font></code> which supported create, yield, join, and exit thread routines. Supported semaphore 
+						routines - init, signal, wait, destroy.
+					</div>
+				</li>
+				<li style="margin-bottom: 17px;">
+					<b>Linux Micro shell</b> <i>(C Programming)</i><br>
+					<div style="line-height: 1.0em;">
+						Developed a <i>micro</i> command line shell which accepted all linux commands. Implemented custom built-in functions for a few 
+						commands - <code><font size="4">cd, echo, logout, nice, pwd, setenv, unsetenv,</font></code> and <code><font size="4">where.
+						</font></code> Supported I/O redirection and inter-process communication using the<code><font size="4"> pipe</font></code> 
+						command and duplication of file descriptors.
+					</div>
+				</li>
+				<li style="margin-bottom: 17px;">
+					<b>Hot porato game simulation</b> <i>(C Programming)</i>
+					<div style="line-height: 1.2em;">
+						Developed a network of computers where each <i>player</i> would play the 
+						<a class="res" href="https://en.wikipedia.org/wiki/Hot_potato_(game)">Hot Potato</a> game. The modified version of the game consisted of a 
+						packet being passed around the ring, with a specified number of hops, where each player would append its <i>player id</i> to 
+						the packet string. As soon as the number of hops reduces to 0, the player with the packet will send the packet back to the master.
+					</div>
+				</li>
 			</ul>
 		</li>
 		<li><b>Networking</b>
-			<ul style="font-size: 0.8em; line-height: 1.3em">
-				<li style="margin-bottom: 10px">
+			<ul style="font-size: 0.8em; line-height: 1.3em;">
+				<li style="margin-bottom: 15px;">
 					<b>Simple FTP using Go-Back-N ARQ</b> <i>(Java. Team of 2)</i>
+					<div style="line-height: 1.2em">
+						Implemented <i>reliable</i> file transfer between two machines using UDP sockets. Achieved reliability using the 
+						<i>Go-Back-N ARQ</i> protocol. Used threads for retransmission timer and for packet resend functionality.
+					</div>
 				</li>
-				<li style="margin-bottom: 10px">
+				<li style="margin-bottom: 15px;">
 					<b>Peer to Peer using Centralized Index</b> <i>(Java. Team of 2)</i>
+					<div style="line-height: 1.2em;">
+						Implemented a simple peer to peer system for downloading RFCs. Maintained a centralized index on a known server which 
+						contained information about the location of RFCs on the network.
+					</div>
 				</li>
 			</ul>
 		</li>
-		<li><b>Database Management Systems</b>
-			<ul style="font-size: 0.8em; line-height: 1.3em">
-				<li style="margin-bottom: 10px">
+		<li><b>Database Management</b>
+			<ul style="font-size: 0.8em; line-height: 1.3em;">
+				<li style="margin-bottom: 15px;">
 					<b>University Housing Application</b> <i>(Java, SQL. Team of 4)</i>
+					<div style="line-height: 1.2em;">
+						A database application which handles all the housing and parking options for students and registered guests. 
+						Developed the modules for interacting with the database using JDBC and wrote stored procedures to dynamically 
+						generate invoices and find a student a suitable roommate.
+					</div>
 				</li>
-				<li style="margin-bottom: 10px">
+				<li style="margin-bottom: 15px;">
 					<b>Simple DB</b> <i>(Java. Team of 4)</i>
+					<div style="line-height: 1.2em;">
+						Improved and optimized <a class="res" href="http://www.cs.bc.edu/~sciore/simpledb/intro.html">SimpleDB</a> buffer pool 
+						search by using HashMap instead of a linear search. Added support for new data types by adding get and set methods - 
+						Short, Boolean, Byte, Date.
+					</div>
 				</li>
 			</ul>
 		</li>
 		<li><b>DevOps</b>
-			<ul style="font-size: 0.8em; line-height: 1.3em">
-				<li style="margin-bottom: 10px">
+			<ul style="font-size: 0.8em; line-height: 1.3em;">
+				<li style="margin-bottom: 17px;">
 					<b>DevOps Software Delivery Pipeline</b> <i>(JavaScript, Node.js, and many others. Team of 3)</i>
+					<div style="line-height: 1.2em">
+						End to end software delivery pipeline demonstrating the three prime stages of a software development 
+						project - Build, Test and Analysis, and Delivery. Used <i>Git</i> and 
+						<a class="res" href="https://jenkins-ci.org/" target="_blank">Jenkins</a> for the build process by configuring 
+						<i>git hooks</i>. Used <a class="res" href="https://mochajs.org/" target="_blank">Mocha</a> and 
+						<a class="res" href="https://gotwarlost.github.io/istanbul/" target="_blank">Istanbul</a> for unit tests and code coverage 
+						measurement. For deployment, we developed a tool to automatically provision and configure a machine on AWS. 
+						Configured the machine using <a class="res" href="http://www.ansible.com/" target="_blank">Ansible</a>. 
+						Used <a href="http://expressjs.com/" class="res" target="_blank">Express.js</a> to build a sample web application and demonstrated 
+						a canary release using <i>http-proxy</i> and <a href="http://redis.io/" class="res" target="_blank"></a>Redis feature flags. 
+						As a special milestone, we implemented a 
+						<i>doctor monkey</i> and a <i>maintenance monkey</i> by developing tools to periodically check the system 
+						for irregularities and fix them in place.
+					</div>
 				</li>
-				<li style="margin-bottom: 10px">
+				<li style="margin-bottom: 17px;">
 					<b>Automatic provisioning</b> <i>(JavaScript, Node.js)</i>
+					<div style="line-height: 1.2em;">
+						Developed a tool to interact with the REST APIs of AWS and DigitalOcean and automatically provision a virtual machine 
+						on these platforms. Configured the machines using Ansible.
+					</div>
 				</li>
-				<li style="margin-bottom: 10px">
+				<li style="margin-bottom: 10px;">
 					<b>Test Generation and Coverage</b> <i>(JavaScript, Node.js, Mocha, Istanbul)</i>
 				</li>
-				<li style="margin-bottom: 10px">
+				<li style="margin-bottom: 10px;">
 					<b>Advanced Docker</b> <i>(Docker, docker-compose)</i>
 				</li>
 			</ul>
 		</li>
 		<li><b>Data Structures</b>
-			<ul style="font-size: 0.8em; line-height: 1.3em">
-				<li style="margin-bottom: 10px">
+			<ul style="font-size: 0.8em; line-height: 1.3em;">
+				<li style="margin-bottom: 10px;">
 					<b>B-Tree</b> <i>(C Programming)</i>
 				</li>
-				<li style="margin-bottom: 10px">
+				<li style="margin-bottom: 10px;">
 					<b>Disk based merge sort</b> <i>(C Programming)</i>
 				</li>
-				<li style="margin-bottom: 10px">
+				<li style="margin-bottom: 10px;">
 					<b>In-memory indexes and availability lists</b> <i>(C Programming)</i>
 				</li>
 			</ul>
