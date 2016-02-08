@@ -146,3 +146,9 @@ a.to_blue:hover {
     text-justify: inter-word;
     font-family: 'Raleway', sans-serif;
 }
+
+.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+    font-family: 'PT Sans', sans-serif;
+}
