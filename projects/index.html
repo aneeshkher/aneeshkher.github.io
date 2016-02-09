@@ -3,7 +3,7 @@ layout: default
 title: "Aneesh's projects"
 ---
 
-<p class="para_gen" style="font-size: 1.5em"><b>A list of all my significant academic projects and assignments</b> (to be completed soon)</p>
+<p class="para_gen" style="font-size: 1.5em"><b>A list of all my significant academic projects and assignments</b></p>
 
 <p>
 	<ul class="para_gen">
@@ -109,24 +109,79 @@ title: "Aneesh's projects"
 						on these platforms. Configured the machines using Ansible.
 					</div>
 				</li>
-				<li style="margin-bottom: 10px;">
-					<b>Test Generation and Coverage</b> <i>(JavaScript, Node.js, Mocha, Istanbul)</i>
+				<li style="margin-bottom: 15px;">
+					<b>Test Generation and Coverage</b> <i>(JavaScript, Node.js, Istanbul, <a href="http://esprima.org/" class="res" target="_blank">
+					Esprima</a>)</i>
+					<div style="line-height: 1.2em">
+						Developed a tool to analyze a source code's 
+						<a href="https://en.wikipedia.org/wiki/Abstract_syntax_tree" class="res" target="_blank">AST</a>, 
+						and generate unit test cases which achieve 100% code coverage. Improved 
+						statement coverage from <b>71%</b> to <b>100%</b> and branch coverage from <b>40%</b> to <b>100%</b>.
+					</div>
 				</li>
-				<li style="margin-bottom: 10px;">
+				<li style="margin-bottom: 15px;">
 					<b>Advanced Docker</b> <i>(Docker, docker-compose)</i>
+					<div style="line-height: 1.2em">
+						Demonstrated three advanced docker features.
+						<ul>
+							<li style="margin-bottom: 5px;margin-top: 5px;">
+								File I/O - Exposed a port on the docker container to listen to TCP requests. Linked ambassador container 
+								to this container. Accessed a file on the original container through the ambassador container using 
+								<code><font size="4">curl</font></code>.
+							</li>
+							<li style="margin-bottom: 5px;">
+								Ambassador pattern - Used <i>docker-compose</i> to spin up containers which were running a redis server 
+								and client. Linked two <i>ambassador</i> containers, one each to the client and server. The redis client 
+								and server communicated only through the ambassador, and never directly.
+							</li>
+							<li style="margin-bottom: 5px;">
+								Docker deploy - Demonstrated <a class="res" target="_blank" href="http://martinfowler.com/bliki/BlueGreenDeployment.html">
+								blue green deployment</a> using docker containers. Configured a <i>post-commit</i> git hook which contained the 
+								commands to build a docker image and push it to the local docker repository.
+							</li>
+						</ul>
+					</div>
 				</li>
 			</ul>
 		</li>
 		<li><b>Data Structures</b>
 			<ul style="font-size: 0.8em; line-height: 1.3em;">
-				<li style="margin-bottom: 10px;">
+				<li style="margin-bottom: 13px;">
 					<b>B-Tree</b> <i>(C Programming)</i>
+					<div style="line-height: 1.2em">
+						Created an order-k (k >= 3) B-Tree which supported insert and search operations. Made the B-Tree persistent by storing it 
+						on disk on program termination. The tree would be loaded again when the program started.
+					</div>
 				</li>
-				<li style="margin-bottom: 10px;">
+				<li style="margin-bottom: 13px;">
 					<b>Disk based merge sort</b> <i>(C Programming)</i>
+					<div style="line-height: 1.2em">
+						Implemented three main types of disk based merge sort.
+						<ul>
+							<li style="margin-bottom: 5px;margin-top: 3px;">
+								Basic merge sort - Divided the input file into sorted runs based on memory size and merged all the sorted runs 
+								together to produce the final sorted output.
+							</li>
+							<li style="margin-bottom: 5px;">
+								Multi step merge sort - Divided the input file into sorted runs based on memory size. Merged the runs into sorted 
+								<i>super runs</i>. Merged the sorted super runs to produce the sorted final output. Achieved significant 
+								improvement in performance over basic merge sort for large inputs.
+							</li>
+							<li style="margin-bottom: 5px;">
+								Replacement selection merge sort - Used a <i>min heap</i> to create sorted runs. The runs were created by comparing the 
+								smallest element in memory with the first element on disk. The smaller element was stored in the <i>secondary</i> heap, 
+								and used for the next run. Run was created as soon as primary heap was empty. Merged sorted runs to produce the final 
+								output. Achieved improvement in performance over basic merge sort.
+							</li>
+						</ul>
+					</div>
 				</li>
-				<li style="margin-bottom: 10px;">
+				<li style="margin-bottom: 13px;">
 					<b>In-memory indexes and availability lists</b> <i>(C Programming)</i>
+					<div style="line-height: 1.2em">
+						Simulated in-memory database indexes and availability lists. Supported three memory management techniques - first fit, 
+						best fit, and worst fit. Made the indexes persistent by storing them on disk on program termination.
+					</div>
 				</li>
 			</ul>
 		</li>
