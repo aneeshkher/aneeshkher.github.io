@@ -1,0 +1,76 @@
+.width-1024-auto {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar-custom-color-light {
+	background-color: #E3F2FD;
+}
+
+.p-gen {
+	font-size: 1.2em;
+    line-height: 1.2em;
+    color: #333;
+	text-align: justify;
+	text-justify: inter-word;
+    font-family: 'Raleway', sans-serif;
+}
+
+.resume-heading {
+    text-align: left;
+    font-variant: small-caps;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+	color: #333;
+}
+
+.resume-name {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 2.5em;
+	font-family: 'Spectral SC', serif;
+    font-weight: bold;
+}
+
+.resume-text-custom {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.2em;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.text-link {
+	color: blue;
+}
+
+.text-link:hover {
+	color: #888;
+}
+.text-header-h1 {
+	color: #333;
+    font-size: 2em;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: bold;
+}
+
+.text-nav {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.width-max-1024-auto {
+	max-width: 1024;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.work-ex-title {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Raleway', sans-serif;
+}
