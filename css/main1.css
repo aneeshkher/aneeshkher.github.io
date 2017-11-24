@@ -74,3 +74,8 @@
     text-justify: inter-word;
     font-family: 'Raleway', sans-serif;
 }
+
+#text-code {
+	font-family: 'Lucida Console';
+	font-size: 0.9em;
+}

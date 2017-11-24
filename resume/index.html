@@ -122,30 +122,35 @@ title: "Aneesh's Resume"
 		
 		<div class="resume-text-custom">
 			<ul>
-				<li style="margin-bottom: 3px"><b>RAM File System</b><br>
+				<li style="margin-bottom: 3px"><b>RAM File System</b> <i>(C Programming)</i><br>
 					The FUSE library is a user space file system library, which allows a user to write his own user space file system by 
 					abstracting the system calls and giving the user control over how he wants to implement them. Developed an 
 					<i>in memory</i> file system in C using the <a class="res" href="https://github.com/libfuse/libfuse" target="_blank">FUSE Library</a>. Designed 
 					the tree structure for the file system and wrote user level implementations for various system calls like read, write, 
 					open, close etc. Tested the file system using 
-					<a class="res" href="http://www.engr.uconn.edu/~vkk06001/FEARLESS/benchmark/postmark-1.51/postmark-1.51.c" target="_blank">Postmark</a>.
+					<a class="text-link" href="http://www.engr.uconn.edu/~vkk06001/FEARLESS/benchmark/postmark-1.51/postmark-1.51.c" target="_blank">Postmark</a>.
 				</li>
 	
-				<li style="margin-bottom: 3px"><b>DevOps Pipeline</b> (Team of three)<br>
+				<li style="margin-bottom: 3px"><b>DevOps Pipeline</b> <i>(Various technologies. Team of three)</i><br>
 					Developed and end to end software delivery pipeline which included the three prime stages of a software project - 
-					Build, Test, and Deployment. We configured <a class="res" href="https://jenkins-ci.org/">Jenkins</a>, Git for the build process. 
-					We used <a class="res" href="https://mochajs.org/">Mocha</a> for unit tests, and developed a tool in JavaScript 
-					which used <a class="res" href="https://gotwarlost.github.io/istanbul/"></a> to improve code coverage to 100%. For deployment, 
-					we developed a tool in JavaScript to automatically provision <a class="res" href="https://aws.amazon.com/ec2/">AWS EC2</a> 
-					machines and configure them using <a class="res" href="http://www.ansible.com/">Ansible</a>. We demonstrated a canary build 
-					using <a class="res" href="http://redis.io/">Redis</a> and http-proxy, and implemented a 'doctor monkey' and 'maintenance monkey' 
+					Build, Test, and Deployment. We configured <a class="text-link" href="https://jenkins-ci.org/">Jenkins</a>, Git for the build process. 
+					We used <a class="text-link" href="https://mochajs.org/">Mocha</a> for unit tests, and developed a tool in JavaScript 
+					which used <a class="text-link" href="https://gotwarlost.github.io/istanbul/"></a> to improve code coverage to 100%. For deployment, 
+					we developed a tool in JavaScript to automatically provision <a class="text-link" href="https://aws.amazon.com/ec2/">AWS EC2</a> 
+					machines and configure them using <a class="text-link" href="http://www.ansible.com/">Ansible</a>. We demonstrated a canary build 
+					using <a class="text-link" href="http://redis.io/">Redis</a> and http-proxy, and implemented a 'doctor monkey' and 'maintenance monkey' 
 					as a method for system health improvement.
 				</li>
 	
-				<li style="margin-bottom: 3px"><b>University housing application</b> (Team of four)<br>
+				<li style="margin-bottom: 3px"><b>University housing application</b> <i>(Java, SQL. Team of four)</i><br>
 					Developed a database application using Oracle10g and Java to allow students to register for housing and parking options, on and off 
 					campus. Used JDBC to define connectivity between the application and the database. Wrote stored procedures for dynamic generation of 
 					invoices for each registered student or guest, and for roommate matching functionality.
+				</li>
+				
+				<li style="margin-bottom: 3px"><b>Simple FTP using Go-Back-N ARQ</b><i> (Java. Team of 2)</i><br>
+					Developed a simple file transfer application and implemented <a class="text-link" href="https://en.wikipedia.org/wiki/Go-Back-N_ARQ" 
+					target="_blank">Go-Back-N ARQ</a> for reliable packet delivery using threads.
 				</li>
 			</ul>
 		</div>
